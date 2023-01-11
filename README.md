@@ -34,4 +34,10 @@ Go to Admin -> Connections and Edit "postgres_default" set this values (equivale
 - Login : postgres
 - Password : postgres
 
+Airflow UI is available by link http://localhost:8080/home. Login-password airflow/airflow.
+
+Dags can be loaded by copying to local folder airflow-sandbox\dags.
+
+Logs can be found at airflow-sandbox\airflow-data\logs. Plugin folder is mapped to airflow-sandbox\airflow-data\plugins.
+
 Enjoy!
